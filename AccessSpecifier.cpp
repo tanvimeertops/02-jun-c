@@ -7,7 +7,7 @@ protected : access inside class and child class only
 (only share with child) 
 */
 using namespace std;
-class Employee{
+class Employee{c
     private:
     int atm_pin;
     public:

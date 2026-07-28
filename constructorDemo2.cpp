@@ -19,6 +19,16 @@ class VolumeOfBox{
         width=w;
         height=h;
     }
+    /*
+    object as a parameter
+    */
+    VolumeOfBox(VolumeOfBox &cc){
+        cout<<"inside copy constructor"<<endl;
+        length=cc.length;
+        width=cc.width;
+        height=cc.height;
+
+    }
     void show(){
         cout<<"volume of box "<<length
         *width*height<<endl;
@@ -31,5 +41,8 @@ int main(){
     dc.show();
     VolumeOfBox pc(10,20,30);
     pc.show();
+
+    VolumeOfBox cc=dc;
+    cc.show();
     return 0;
 }

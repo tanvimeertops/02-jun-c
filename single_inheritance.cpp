@@ -12,20 +12,23 @@ person
 student
 employee
 customer
-
+public: accesible everywhere
+private :accesible within the class
+protected: accesible in child class
 
 */
 
 class Peron{
+    protected:
+    string name="Qaid";
     public:
-    string name;
-    
         void displayPerson(){
             cout<<"name is "<<name<<endl;
         }
 };
 
 class Student:public Peron {
+    
      public:
     int marks;
    
@@ -35,7 +38,7 @@ class Student:public Peron {
 };
 int main(){
     Student s1;
-    s1.name="Qaid";
+    // s1.name;
     s1.displayPerson();
     s1.marks=45;
     s1.displayMarks();

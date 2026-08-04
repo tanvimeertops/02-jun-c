@@ -2,7 +2,7 @@
 using namespace std;
 class Animal{
     public:
-        void sound(){
+      virtual void sound(){
             cout<<"Animal sound"<<endl;
         }
 

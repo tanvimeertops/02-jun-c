@@ -1,6 +1,13 @@
 #include<iostream>
 using namespace std;
-
+/*
+class 
+object
+inheritance
+encapsulation
+polymorphism
+abstraction
+*/
 class Student {
    public:
     int roll_no;

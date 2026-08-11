@@ -1,6 +1,7 @@
 #include<iostream>
 /*
     overriding : same func same protocol use with inheritance
+    runtime polymorphism
 */
 using namespace std;
 class Payment {
@@ -8,6 +9,7 @@ class Payment {
     void pay(){
         cout<<"Payment succesful"<<endl;
     }
+    
 };
 class UPI:public Payment{
     public:

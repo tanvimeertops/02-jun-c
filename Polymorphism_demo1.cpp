@@ -1,5 +1,9 @@
 #include<iostream>
 using namespace std;
+/*
+overloading : same func name but diff parameter
+compile time polymorphism
+*/
 
 class Print_polymorphism{
     public :
@@ -7,7 +11,7 @@ class Print_polymorphism{
         cout<<"Integer val is "<<x<<endl;
     }
     
-    void print(string b){
+    void print( b){
         cout<<"Name is "<<b<<endl;
     }
 
